@@ -1,0 +1,21 @@
+./mysh(1)
+
+NAME
+        ./mysh - A C shell coded by an Epitech Rennes student.
+
+SYNOPSYS
+        - ./mysh -h -> display this help text on the standard output and exit.
+        - echo "[commands]" | ./mysh -> execute the command passed in the echo and exit.
+        - ./mysh -> Enter the terminal interface and then you can write any command that will be executed
+        but the exit value is only returned when the command exit is done.
+
+DESCRIPTION
+        mysh is the resut of the minishell 2 project of Epitech so we can do almost everything like a standard shell like tcsh.
+        Including pipes, redirection and all the commands that are installed on your computer
+
+RETURN VALUE
+        ./mysh return the return value of the command so to check for errors you need to check the man of the command you execute.
+        There is only one specific return value wich is 84 that means that an error occured in the shell itself like a
+        malloc failure or else
+
+Project Done by HT.
